@@ -16,7 +16,7 @@ import threading
 import argparse
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
-from station.station_controller import SpaceStationController
+from station.BASE import SpaceStationController
 
 
 # ── ANSI colours ───────────────────────────────────────────────────────────────
